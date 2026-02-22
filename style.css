@@ -101,4 +101,27 @@ footer {
 .vehicle-card p {
     margin: 5px 0;
     color: #333;
+}/* Post Vehicle Form */
+.post-vehicle form input,
+.post-vehicle form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.post-vehicle form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.post-vehicle form button:hover {
+    background-color: #0056b3;
 }
