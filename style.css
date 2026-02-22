@@ -1,5 +1,68 @@
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
 body {
-    background-color: lightgray;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1f44;
+    padding: 15px 20px;
+}
+
+.header .logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.header nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 60px 20px;
     text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #0a1f44;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background-color: #0a1f44;
+    color: #fff;
+    margin-top: 40px;
 }
