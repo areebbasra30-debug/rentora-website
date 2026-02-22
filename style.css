@@ -65,4 +65,40 @@ footer {
     background-color: #0a1f44;
     color: #fff;
     margin-top: 40px;
+}/* Vehicle cards */
+.browse-vehicles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.vehicle-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.vehicle-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.vehicle-card:hover {
+    transform: scale(1.05);
+}
+
+.vehicle-card h3 {
+    color: #0a1f44;
+    margin: 10px 0 5px 0;
+}
+
+.vehicle-card p {
+    margin: 5px 0;
+    color: #333;
 }
