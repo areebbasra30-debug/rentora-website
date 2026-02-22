@@ -33,6 +33,22 @@ vehicles.forEach(v => {
     container.appendChild(card);
 });
 </script>
+<script>
+// Load vehicles from localStorage and display them
+let vehicles = JSON.parse(localStorage.getItem('vehicles') || "[]");
+let container = document.querySelector('.browse-vehicles');
 
+vehicles.forEach(v => {
+    let card = document.createElement('div');
+    card.className = 'vehicle-card';
+    card.innerHTML = `
+        <img src="${v.imgURL}" alt="${v.model}">
+        <h3>${v.model}</h3>
+        <p>Rent: PKR ${v.rent}/day</p>
+        <p>Owner: ${v.phone}</p>
+    `;
+    container.appendChild(card);
+});
+</script>
 </body>
 </html>
